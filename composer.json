@@ -1,0 +1,24 @@
+{
+    "name": "phoenyx-studio/templatenik",
+    "description": "Php library for generation of documents on the basis of templanes and input data",
+    "type": "library",
+    "require": {
+        "phpoffice/phpword": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5@dev"
+    },
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Yuriy Serdyuk",
+            "email": "yury@serdyuk.pp.ua"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
