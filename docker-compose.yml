@@ -1,6 +1,10 @@
 version: '2'
 services:
   php:
-    image: php:7.3-fpm
+    build: ./docker
+    container_name: templatenik_php
     volumes:
       - ./:/App
+    environment:
+      XDEBUG_CONFIG: "remote_host=host.docker.intenral remote_enable=1"
+      PHP_IDE_CONFIG: "serverName=templatenik_php"
