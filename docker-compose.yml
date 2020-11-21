@@ -6,5 +6,5 @@ services:
     volumes:
       - ./:/App
     environment:
-      XDEBUG_CONFIG: "remote_host=host.docker.intenral remote_enable=1"
-      PHP_IDE_CONFIG: "serverName=templatenik_php"
+      XDEBUG_CONFIG: "remote_host=host.docker.internal remote_enable=1"
+      PHP_IDE_CONFIG: "serverName=Templatenik"
