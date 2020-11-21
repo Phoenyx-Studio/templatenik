@@ -1,6 +1,6 @@
 <?php
 
-namespace PhoenyxStudio\Service;
+namespace PhoenyxStudio\Templatenik\Service;
 
 use PhpOffice\PhpWord\Exception\CopyFileException;
 use PhpOffice\PhpWord\Exception\CreateTemporaryFileException;
